@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: linear-gradient(45deg, #326aa3, #55789b);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-image: linear-gradient(45deg, #131313, #141414);
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    border-radius: 15px;
+    padding: 15px;
+
+    text-align: center;
+}
+
+/* ============== BUTTONS ============== */
+
+.btn {
+    width: 65px;
+    height: 45px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+
+    margin: 4px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.wt-btn{
+    background-color:#fff7e6;
+    color: #131313;
+
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px #dad4c8, 0px 4px 10px #222222;
+    transition: all 0.2 ease;
+}
+
+.ac-btn{
+    background-color:#264d73;
+    color: #fff7e6; 
+    
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px #1e3d5c, 0px 4px 10px #222222;
+    transition: all 0.2 ease;
+}
+
+.del-btn{
+    background-color:#b30000;
+    color: #fff7e6;
+
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px #8f0303, 0px 4px 10px #222222;
+    transition: all 0.2 ease;
+}
+
+/* Efeito transição quando clica no button */
+button:active{
+    box-shadow: none;
+    top: 8px;
+}
+
+/* ============== END BUTTONS ============== */
+
+/* Display onde aparece o resultado */
+#result{
+    background-color:  #060613;
+    width: 280px;
+    height: 50px;
+
+    border-radius: 10px;
+    
+    margin-bottom: 5px;
+    padding: 5px;
+
+    text-align: right;
+
+    color: #fff7e6;
+
+    box-shadow: 0px 2px 0px #131414, 0px 2px 10px #222222;
+}
