@@ -1,7 +1,7 @@
 ## Simple-Calculator
 
 <div align="center">
-  <img width="350px" src="https://user-images.githubusercontent.com/55250414/147489347-c80dd2d5-8fd1-45f4-be82-21be40c70873.gif" alt="calculator review">
+  <img src="https://user-images.githubusercontent.com/55250414/147489960-67d63ccf-d533-42e5-83a6-9ad811e1238c.gif" alt="calculator review">
 </div>
 
 ### The Prooject
